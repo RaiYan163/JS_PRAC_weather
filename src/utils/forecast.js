@@ -23,7 +23,12 @@ const forecast = (a, b, callback) => {
           " Degrees." +
           " Temp perceived: " +
           body.main.feels_like +
-          " Degrees"
+          " Degrees." +
+          " Highest temp: " +
+          body.main.temp_max +
+          "Degrees. Lowest temp: " +
+          body.main.temp_min +
+          " Degrees."
       );
     }
 
